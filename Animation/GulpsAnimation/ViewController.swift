@@ -11,7 +11,7 @@ class ViewController: UIViewController {
         DPMeterView.appearance().progressTintColor = UIColor.mainColor()
 
         meterView.setShape(MeterShape.path())
-        view.backgroundColor = .clearColor()
+
     }
 
     override func viewDidAppear(animated: Bool) {
